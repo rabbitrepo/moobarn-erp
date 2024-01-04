@@ -79,15 +79,20 @@ Low, the client is willing to spend less than 3,000 THB a month.
 
 <details>
   <summary>Why Custom Solution?</summary>
-- Budget Considerations
+
+- **Budget Considerations**
   - High-end ERPs like SAP exceed our budget.
-- Market Research
+
+- **Market Research**
   - Evaluated various ERPs and accounting SaaS.
   - Open-source ERPs (Odoo, ERPNext) and accounting SaaS (Flow Account, PEAK) were explored.
-- Decision Rationale
+
+- **Decision Rationale**
   - None matched our unique requirements.
-  - Choose to create a custom solution.
+  - Chose to create a custom solution.
+
 </details>
+
 
 # Outcome
 - Eliminate data inconsistencies.
