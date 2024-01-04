@@ -10,7 +10,7 @@ This summarizes the digital transformation initiatives for a gated community loc
 - Typically, one house per plot; some span 2-5 plots.
 - Owners can divide their plots.
 - Variable fees for land and houses, subject to change.
-- Fees can be paid monthly not yearly as normal
+- Fees can be paid monthly not yearly as normal.
 - Legal action will be pursued in case of fee payment default.
 
 # Pain Points
