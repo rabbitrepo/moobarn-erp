@@ -66,34 +66,143 @@ Low, the client is willing to spend less than 3,000 THB a month.
   - Access control for data security.
 
 **2. Custom ERP web app for:**
-- Payment management.
-  - Demo: In Progress
-- Special revenue recording.
-  - Demo: In Progress
-- Expense recording.
-  - Demo: In Progress
-- Property data editing.
-  - Demo: In Progress
-- LINE OA with Web Service
-  - for communication, event notifications, and fee status checks.
-    - Demo: In Progress
 
 <details>
-  <summary>Why Custom Solution?</summary>
+  <summary>Payment management</summary>
 
-- **Budget Considerations**
-  - High-end ERPs like SAP exceed our budget.
+- Fees
 
-- **Market Research**
-  - Evaluated various ERPs and accounting SaaS.
-  - Open-source ERPs (Odoo, ERPNext) and accounting SaaS (Flow Account, PEAK) were explored.
+  Fees are collected for maintaining the facilities in the community. The fees can be paid down to a monthly basis. When the fees are paid, the staff will record them in the system, the receipt is created, the payment history is updated, and all number is posted to the general ledger (accounting) automatically.
+  
+    - History
 
-- **Decision Rationale**
-  - None matched our unique requirements.
-  - Chose to create a custom solution.
+      ![](/Images/1.1_Fees/fees_1_history.png)
+      
+      (1) A history of payment
+      
+      (2) Filter by Date Range
+      
+      (3) Print Button
+
+      (4) Cancel Button - There will be a confirmation prompt when clicked.
+         ![](/Images/1.1_Fees/fees_2_cancel.png)
+
+      (5) Pagination
+
+      (6) Navigate to Check / Create
+
+    - Check / Create
+      
+      ![](/Images/1.1_Fees/fees_3_create.png)
+
+      [A] Input Address or Land Plot to search for outstanding invoices
+      
+      [B] Form for issuing a receipt
+      
+      (1) Payment Method
+      
+      (2) Date
+
+      (3) Select period for this payment
+      
+      (4) Payment History
+      
+      (5) Description
+      
+      (6) Discount / Revenue
+
+      (7) Total Amount
+
+      (8) Confirmation Box and Submit Button
+      
+- Installment
+  
+  In case of payment default, there will be a fine or discount from a court order. The amount is treated as an installment. When the installment is paid, the staff will record them in the system, the receipt is created, the installment history is updated, and all number is posted to the general ledger (accounting) automatically.
+  
+    - History
+      
+      ![](/Images/1.2_Installment/installment_1_history.png)
+
+      (1) Navigate to Check / Create
+      
+    - Check / Create
+      
+      ![](/Images/1.2_Installment/installment_2_create.png)
+
+      [A] Input Address or Land Plot to search for outstanding installments
+      
+      [B] Form for issuing a receipt
+      
+      (1) Information about installment amount and history
+
+      (2) Input payment method, date, amount, and description
+
+      (3) Discount / Revenue
+      
+      (4) Amount after this payment
+      
+      (5) Confirmation Box and Submit Button
+</details>
+
+<details>
+  <summary>Special revenue recording</summary>
+
+  Other revenue that is not from fees or installments will be recorded on this screen. Options for accounts are fetched from the chart of accounts. After submission, the receipt is created and the amount is posted to the general ledger (accounting) automatically.
+  
+  - History
+
+    ![](/Images/2_Etc/etc_1_history.png)
+
+    (1) Navigate to Create
+    
+  - Create
+    
+    ![](/Images/2_Etc/etc_2_create.png)
+
+    (1) Input date and description
+
+    (2) Input amount of each entry
+
+    (3) Submit button
+    
+</details>
+
+<details>
+  <summary>Expense recording</summary>
+  
+  Once a day, the staff will collect and record all expenses in the system by creating a payment voucher in a system. Options for accounts are fetched from the chart of accounts. After the voucher is created, every entry will be posted to the general ledger (accounting) automatically.
+ 
+  - History
+    
+    ![](/Images/3_Pv/pv_1_history.png)
+
+    (1) Navigate to Create
+    
+  - Create
+    
+    ![](/Images/3_Pv/pv_2_create.png)
+
+    (1) Input date and description
+
+    (2) Input amount of each entry
+
+    (3) Submit button
 
 </details>
 
+<details>
+  <summary>Property data editing</summary>
+
+  Edit info of each land plot, if there's another plot within the same address, update one with update others automatically.
+  
+  ![](/Images/4_Block/block_1_main.png)
+  ![](/Images/4_Block/block_2_edit_status.png)
+  ![](/Images/4_Block/block_3_edit_note.png)
+
+</details>
+
+  **3. LINE OA with Web Service**  
+  - for communication, event notifications, and fee status checks (เช็คค่าส่วนกลางผ่าน LINE).
 
 # Outcome
 - Eliminate data inconsistencies.
