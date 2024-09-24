@@ -1,4 +1,9 @@
-![](/Images/cover.png)
+<div align="center">
+  <img src="/Images/cover.png" />
+  <a href="https://spiffy-snowplow-54e.notion.site/ERP-for-Gated-Community-d2848e095ec4467eaa725342761e377e?pvs=25"> 
+    <img src="https://www.golfgooroo.com/wp-content/uploads/2008/04/learn-more-button-png-learn-more-button-rainwater-1024.png" width="100px" />
+  </a>
+</div>
 
 # Purpose of this repository
 This summarizes the digital transformation initiatives for a gated community located in the Bangkok suburb. 
@@ -58,8 +63,7 @@ This summarizes the digital transformation initiatives for a gated community loc
 Low, the client is willing to spend less than 3,000 THB a month.
 
 # Time
-- 6 months starting in Oct 2023
-- Progress: 80%
+- 5 months starting in Sep 2023
 
 # Output
 
