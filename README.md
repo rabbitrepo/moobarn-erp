@@ -1,3 +1,5 @@
+![](/Images/cover.png)
+
 # Purpose of this repository
 This summarizes the digital transformation initiatives for a gated community located in the Bangkok suburb. 
 
@@ -204,7 +206,7 @@ Low, the client is willing to spend less than 3,000 THB a month.
   **3. LINE OA with Web Service**  
   - for communication, event notifications, and fee status checks (เช็คค่าส่วนกลางผ่าน LINE).
 
-# Outcome
+# Projected Outcome
 - Eliminate data inconsistencies.
   - Centralize records, ending paper-Excel syncing.
 - Boost operational efficiency by 60%.
