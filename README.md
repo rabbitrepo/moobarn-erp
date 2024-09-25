@@ -1,6 +1,6 @@
 <div align="center">
   <img src="/Images/cover.png" />
-  <a href="https://spiffy-snowplow-54e.notion.site/ERP-for-Gated-Community-d2848e095ec4467eaa725342761e377e?pvs=25"> 
+  <a href="https://spiffy-snowplow-54e.notion.site/ERP-for-Gated-Community-d2848e095ec4467eaa725342761e377e?pvs=25" target="_blank"> 
     <img src="https://www.golfgooroo.com/wp-content/uploads/2008/04/learn-more-button-png-learn-more-button-rainwater-1024.png" width="100px" />
   </a>
 </div>
