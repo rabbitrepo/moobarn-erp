@@ -62,6 +62,15 @@ Low, the client is willing to spend less than 3,000 THB a month.
 # Time
 - 5 months starting in Sep 2023
 
+# Architecture
+![architecture](https://github.com/user-attachments/assets/86167d05-1ded-4731-b2e8-dc2aa299c2d7)
+|:--:| 
+| *Architecture* |
+
+![schema](https://github.com/user-attachments/assets/9dcce21c-e8b1-4d6d-bca2-f42f716dbc19)
+|:--:| 
+| *Database Scheme* |
+
 # Output
 
 **1. Cloud-based centralized database.**  
